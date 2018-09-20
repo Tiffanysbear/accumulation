@@ -21,4 +21,3 @@
 * 多行高度不定文字居中，padding-top和padding-bottom设置相同即可
 * 单行文本的垂直居中，line-height = height
 * 多行文本的高度固定居中, display:table和display:table-cell的使用方法，前者必须设置在父元素上，后者必须设置在子元素上。vertical-align 用来指定行内元素（inline）或表格单元格（table-cell）元素的垂直对齐方式。
-* 
