@@ -26,7 +26,7 @@ line-height有5个值
 5. 纯数值<br>
 　　一个元素如果设置了纯数值为line-height，那么这个纯数值会被继承。例如一个元素行高为1.5 其font-size为16像素 那么它的实际行高为16 * 1.5 = 24像素 而它的子元素font-size为12像素 那么它的实际行高为12*1.5 = 18像素<br>
 
-注意事项：
+注意事项： 
 
 * 所有浏览器都支持line-height，但ie不支持 line-height 的 inherit 值
 * line-height 不允许设置负值
