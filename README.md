@@ -26,11 +26,11 @@ line-height有5个值
 5. 纯数值<br>
 　　一个元素如果设置了纯数值为line-height，那么这个纯数值会被继承。例如一个元素行高为1.5 其font-size为16像素 那么它的实际行高为16 * 1.5 = 24像素 而它的子元素font-size为12像素 那么它的实际行高为12*1.5 = 18像素<br>
 
-注意事项： 
+注意事项：     
 
 * 所有浏览器都支持line-height，但ie不支持 line-height 的 inherit 值
-* line-height 不允许设置负值
-* 未设高度的空div中的文字之所以有高度，是因为line-height。在inline box模型中，有个line boxes，line-boxes是根据文案、图片等这些资源生成的一个高度框，自身不产生高度。line-boxes的默认高度为字体高度的110%
+* line-height 不允许设置负值 
+* 未设高度的空div中的文字之所以有高度，是因为line-height。在inline box模型中，有个line boxes，line-boxes是根据文案、图片等这些资源生成的一个高度框，自身不产生高度。line-boxes的默认高度为字体高度的110% 
 * 使用height会使标签haslayout，而使用line-height则不会。
 
 
