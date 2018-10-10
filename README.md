@@ -63,7 +63,20 @@ rem：始终是基于根元素 <html> ，是目前比较好的解决方法。
 
 
 
-## SVG canvas
+## 去除inline-block元素之间的空隙
+造成空隙的原因：因为元素之间有空格或者换行
+解决办法
+
+* 除掉空白符; 但缺点是代码风格和结构都不美观
+* font-size：0; 空白符也是字符，设置字体大小为0是可以实现除去字符的。缺点是需要为子元素依次设置字体大小，低版本chrome不支持设置font-size：0; 需要加上 -webkit-text-size-adjust：none 私有属性来支持设置。
+* word-spacing/letter-spacing: 使用负值，设置的负值是和字体大小有关系，但是如果设置过大的话，会造成重叠
+
+
+## postCss
+详细解释：https://www.ibm.com/developerworks/cn/web/1604-postcss-css/index.html
+[点击链接](https://www.ibm.com/developerworks/cn/web/1604-postcss-css/index.html)
+
+
 
 
 
