@@ -1,8 +1,7 @@
 ## event.target 和 event.currentTarget 的区别
->  [event.target 和 event.currentTarget 的区别](http://www.calledt.com/target-and-currenttarget/)
-> 
-> 冒泡和捕获： 当addEventListener的第三个参数为true的时候，代表是在捕获阶段绑定；当第三个参数为false或者为空的时候，代表在冒泡阶段绑定
-> 
+[event.target 和 event.currentTarget 的区别](http://www.calledt.com/target-and-currenttarget/)
+
+冒泡和捕获： 当addEventListener的第三个参数为true的时候，代表是在捕获阶段绑定；当第三个参数为false或者为空的时候，代表在冒泡阶段绑定
 
 结论：event.target指向引起触发事件的元素，而event.currentTarget则是事件绑定的元素，只有被点击的那个目标元素的event.target才会等于event.currentTarget。
 
